@@ -7,7 +7,7 @@ This project demonstrates responsive design, grid layouts, hover effects, and cl
 
 🌍 Live Website
 
-🔗 
+🔗 https://sreenandh76.github.io/Greenden-tailwind/
 
 ---
 
