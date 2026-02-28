@@ -9,9 +9,10 @@
     <link href="
 https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
 " rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body class="min-h-screen flex flex-col">
+<body class="min-h-screen flex flex-col"  style="font-family: 'Montserrat', sans-serif;">
     <!--Responsive Navbar-->
     <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
         <h1 class="text-2xl">Greenden</h1>
@@ -83,7 +84,7 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
                   <path d="M32 0A24.032 24.032 0 0 0 8 24c0 17.23 22.36 38.81 23.31 39.72a.99.99 0 0 0 1.38 0C33.64 62.81 56 41.23 56 24A24.032 24.032 0 0 0 32 0zm0 35a11 11 0 1 1 11-11 11.007 11.007 0 0 1-11 11z" data-original="#000000" />
                 </svg>
                 <div>
-                  <h4 class="font-semibold text-indigo-700 text-sm mb-2">Our Location</h4>
+                  <h4 class="font-semibold text-indigo-700 text-sm mb-2 cursor-pointer">Our Location</h4>
                   <p class="text-slate-600 text-sm">45, MG Road, Indiranagar,</p>
                   <p class="text-slate-600 text-sm">Bengaluru - 560038,</p>
                    <p class="text-slate-600 text-sm">Karnataka, India</p>
@@ -95,7 +96,7 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
                   <path d="m499.66 376.96-71.68-71.68c-25.6-25.6-69.12-15.359-79.36 17.92-7.68 23.041-33.28 35.841-56.32 30.72-51.2-12.8-120.32-79.36-133.12-133.12-7.68-23.041 7.68-48.641 30.72-56.32 33.28-10.24 43.52-53.76 17.92-79.36l-71.68-71.68c-20.48-17.92-51.2-17.92-69.12 0L18.38 62.08c-48.64 51.2 5.12 186.88 125.44 307.2s256 176.641 307.2 125.44l48.64-48.64c17.921-20.48 17.921-51.2 0-69.12z" data-original="#000000" />
                 </svg>
                 <div>
-                  <h4 class="font-semibold text-indigo-700 text-sm mb-2">Phone Number</h4>
+                  <h4 class="font-semibold text-indigo-700 text-sm mb-2 cursor-pointer">Phone Number</h4>
                   <p class="text-slate-600 text-[13px]">+91 74555 66666</p>
                 </div>
               </div>
@@ -107,13 +108,13 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
                 </svg>
                 <div>
                   <h4 class="font-semibold text-indigo-700 text-sm mb-2">Email Address</h4>
-                  <p class="text-slate-600 text-[13px]">greenden@business.com</p>
+                  <p class="text-slate-600 text-[13px] cursor-pointer">greenden@business.com</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-200">
+          <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-200 hover:shadow-2xl hover:translate-y-2 hover:scale[1.02] transition-all duration-300 cursor-pointer">
             <h3 class="text-xl font-semibold text-slate-900 mb-8">Hours of Operation</h3>
             <div class="space-y-4">
               <div class="flex justify-between gap-4 flex-wrap">
@@ -135,7 +136,7 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
     </div>
 <!--footer-->
 <section class="bg-green-100 p-10 flex flex-col gap-5 mb-0 ">
-    <h1 class="text-4xl font-bold">Greenden</h1>
+    <h1 class="text-4xl font-bold"><a class="hover:underline hover:text-black" href="index.html">Greenden</h1></a>
 <p>Fresh plants. Trusted quality. Delivered with care.</p>
 <p class="cursor-pointer">@ 2018 Greenday.com</p>
 </section>
